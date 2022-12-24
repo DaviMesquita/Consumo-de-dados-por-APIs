@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumo de dados por APIs</title>
+</head>
+<body>
+
+    <span id="loadingInicial">Carregando dados iniciais</span>
+    <div id="selecao" style="display: none">
+        <span>Selecione um partido: </span>
+        <select id="partidos">
+            <option style="display:none"></option>
+        </select>
+    </div>
+    <span id="loadingPartido" style="display: none">Carregando dados do partido</span>
+    <div id="partidoSelecionado">
+        <h1 id="tituloMembros"></h1>
+        <div id="membros">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

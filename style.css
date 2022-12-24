@@ -1,0 +1,23 @@
+.fotos{
+    width: 114px;
+    height: 152px;
+    border: 2px black solid;
+    margin-right: 15px;
+}
+
+.dados{
+    font-size: 20px;
+}
+
+.membro{
+    display: flex;
+    margin: 15px;
+}
+
+#membros{
+    margin: 20px;
+}
+
+#loadingPartido{
+    margin-top: 40px;
+}
